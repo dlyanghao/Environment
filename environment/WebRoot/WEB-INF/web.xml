@@ -27,7 +27,7 @@
 
 <servlet-mapping>
 <servlet-name>Log4JInitServlet</servlet-name>
-<url-pattern>/environment/*</url-pattern>
+<url-pattern>/environment/login.do</url-pattern>
 </servlet-mapping>
 
 <listener>  
