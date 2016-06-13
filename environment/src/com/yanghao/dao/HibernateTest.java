@@ -1,4 +1,4 @@
-package com.yanghao.test;
+package com.yanghao.dao;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -6,7 +6,7 @@ import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 import org.junit.Test;
 
-import com.yanghao.vo.User;
+import com.yanghao.pojo.User;
 
 public class HibernateTest {
 	

@@ -11,6 +11,6 @@
 		<property name="hibernate.connection.username">root</property>
 		<property name="hibernate.connection.password">7773365</property>
 		<property name="hibernate.hbm2ddl.auto">update</property>
-		<mapping resource="com/yanghao/vo/User.hbm.xml"/>
+		<mapping resource="com/yanghao/pojo/User.hbm.xml"/>
 	</session-factory>
 </hibernate-configuration>

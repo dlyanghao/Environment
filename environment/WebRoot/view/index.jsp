@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="ISO-8859-1"%>
+<%@ page contentType="text/html;charset=GBK" %>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -7,9 +7,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
+  	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
     <base href="<%=basePath%>">
     
-    <title>My JSP 'login.jsp' starting page</title>
+    <title>这是主页1</title>
     
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
@@ -23,6 +24,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    login success! <br>
+    <a href="/index2.do">跳转到页面2</a>
+    <button onclick="window.location = '/index2.do'">跳转到页面2</button>
+    <button onclick="location = '/index2.do'">跳转到页面2</button>
+    <button onclick="location.href = '/index2.do'">跳转到页面2</button>
+    <button onclick="window.open('/index2.do')">跳转到页面2</button>
   </body>
 </html>

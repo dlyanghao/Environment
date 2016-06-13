@@ -5,9 +5,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class AnnnotationController {
-	@RequestMapping("login.do")
+	@RequestMapping("index.do")
 	public String login(){
-		return "login";
+		return "index";
 	}
-
+	@RequestMapping("index2.do")
+	public String indexSuccess(){
+		return "index2";
+	}
 }

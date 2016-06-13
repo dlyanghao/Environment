@@ -1,4 +1,4 @@
-package com.yanghao.vo;
+package com.yanghao.pojo;
 
 public class User {
 	

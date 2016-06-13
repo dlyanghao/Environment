@@ -3,7 +3,7 @@
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <!-- 定义User的映射文件 -->
 <hibernate-mapping>
-	<class name="com.yanghao.vo.User">
+	<class name="com.yanghao.pojo.User">
 		<id name="id" type="integer">
 			<generator class="native"></generator>
 		</id>
