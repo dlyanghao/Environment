@@ -13,4 +13,8 @@ public class AnnnotationController {
 	public String indexSuccess(){
 		return "index2";
 	}
+	@RequestMapping("error.do")
+	public String error(){
+		return "error";
+	}
 }

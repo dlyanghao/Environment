@@ -1,33 +1,18 @@
 <%@ page contentType="text/html;charset=GBK" %>
-<%
-String path = request.getContextPath();
-String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
-%>
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE html>
 <html>
-  <head>
-  	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
-    <base href="<%=basePath%>">
-    
-    <title>่ฟๆฏไธป้กต1</title>
-    
-	<meta http-equiv="pragma" content="no-cache">
-	<meta http-equiv="cache-control" content="no-cache">
-	<meta http-equiv="expires" content="0">    
-	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
-	<meta http-equiv="description" content="This is my page">
-	<!--
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	-->
-
-  </head>
-  
-  <body>
-    <a href="/index2.do">่ทณ่ฝฌๅฐ้กต้ข2</a>
-    <button onclick="window.location = '/index2.do'">่ทณ่ฝฌๅฐ้กต้ข2</button>
-    <button onclick="location = '/index2.do'">่ทณ่ฝฌๅฐ้กต้ข2</button>
-    <button onclick="location.href = '/index2.do'">่ทณ่ฝฌๅฐ้กต้ข2</button>
-    <button onclick="window.open('/index2.do')">่ทณ่ฝฌๅฐ้กต้ข2</button>
-  </body>
+<head> 
+<title></title>
+<meta http-equiv="content-type" content="text/html; charset=gbk"/>
+</head>
+<body>
+<div>
+	<a>ีโสวึ๗าณ</a>
+	<a href="/index2.do">ฬ๘ืชตฝาณรๆ2</a>
+    <button onclick="window.location = '/index2.do'">ฬ๘ืชตฝึ๗าณ2</button>
+    <button onclick="location = '/index2.do'">ฬ๘ืชตฝึ๗าณ2</button>
+    <button onclick="location.href = '/index2.do'">ฬ๘ืชตฝึ๗าณ2</button>
+    <button onclick="window.open('/index2.do')">ฬ๘ืชตฝึ๗าณ2</button>
+</div>
+</body>
 </html>
